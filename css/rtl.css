@@ -1,0 +1,298 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+.content-header:after {
+    right: 0;
+}
+
+/*** Header **/
+header .navbar-expand-sm .navbar-nav {
+    margin-right: 0 !important;
+}
+header .top-nav .navbar-right {
+    left: 10px;
+    right: auto;
+}
+header .top-nav .navbar-right .nav-item .dropdown-menu {
+    transform: translate3d(0px, 32px, 0px) !important;
+}
+header .med-nav .med-nav-menu ul .menu-item {
+    margin-left: 0;
+    margin-right: 30px;
+}
+header .med-nav .med-nav-menu .menu-item a i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+header .bottom-nav .bottom-nav-left .bottom-nav-icon div.wishlist {
+    margin-left: 0;
+    margin-right: 15px;
+}
+header .bottom-nav .bottom-nav-left .bottom-nav-cart a i {
+    float: left;
+}
+header .bottom-nav .bottom-nav-left .bottom-nav-cart .count {
+    right: auto;
+    left: -10px;
+    text-align: center;
+}
+header .bottom-nav .bottom-nav-left .bottom-nav-icon div.wishlist span {
+    left: -6px;
+    right: auto;
+    text-align: center;
+}
+header .header-links {
+    text-align: center;
+}
+header .header-links ul li {
+    margin-left: 0;
+    margin-right: 30px;
+}
+.advance-search .content-header {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+@media(max-width: 991px) {
+    header .bottom-nav .bottom-nav-left .mobile-search button {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    header .bottom-nav .bottom-nav-left .mobile-cart {
+        margin-right: 13px;
+        margin-left: 0;
+    }
+    header .bottom-nav .bottom-nav-left .mobile-cart a span {
+        right: auto;
+        left: -12px;
+    }
+}
+
+
+/*** Home Page ***/
+.collection {
+    padding: 50px 0 50px 15px;
+}
+.collection .collection-right {
+    right: -40px;
+    left: auto;
+}
+.collection .collection-right .add-to-cart .count .count-arrows a,
+.beauty .beauty-right .add-to-cart .count .count-arrows a {
+    border-right: none;
+    border-left: 1px solid #233851;
+}
+.beauty .beauty-right .wishlist {
+    float: left;
+    margin-left: 18px;
+    margin-right: 0;
+}
+
+/*** footer ***/
+.main-section-icons .icon-container i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+footer .footer-links h3:after {
+    right: 0;
+}
+footer .footer-social ul li {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+
+#scroll-btn {
+    left: 10px;
+    right: auto;
+}
+
+
+/*** about-page ***/
+.about-page .about-content .about-text .paragraph span {
+    float: right;
+    margin-left: 5px;
+    margin-right: 0;
+}
+.about-page .about-content .about-text blockquote span {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+
+/*** checkout ****/
+.checkout-page .checkout-content .checkout-left form .form-group label {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.checkout-page .checkout-content .checkout-left form .form-group label.required:after {
+    margin-right: 3px;
+    margin-left: 0;
+}
+.checkout-page .checkout-content .checkout-left form .form-group input {
+    padding-right: 10px;
+    padding-left: 0;
+}
+.checkout-page .checkout-content .checkout-right .pay-method .shipping {
+    margin-left: 120px;
+    margin-right: 0;
+}
+.checkout-page .checkout-content .checkout-right .pay-method .radio i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.checkout-page .checkout-content .checkout-right .credit-form form .form-group input {
+    padding-right: 10px;
+    padding-left: 0;
+}
+.checkout-page .checkout-content .checkout-right .credit-form form .submit-btn {
+    float: left;
+    margin-left: 20px;
+    margin-right: 0;
+}
+.checkout-page .checkout-content .checkout-right .coupon .coupon-input input {
+    padding-right: 10px;
+    padding-left: 0;
+}
+.checkout-page .checkout-content .checkout-right .shopping-cart table tbody td.td-quantity .qty .count .count-arrows a {
+    border-left: 1px solid #233851;
+    border-right: none;
+}
+.checkout-page .checkout-content .checkout-right .shopping-cart table.table-foot tfoot td {
+    text-align: left;
+}
+
+/*** contact us ***/
+.contact-page .contact-content .contact-form .register form .form-group label {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.contact-page .contact-content .contact-form .register form .form-group .form-control {
+    padding-right: 5px;
+    padding-left: 0;
+}
+
+/*** faq ***/
+.faq-page .faq-content .faq-slide .list .list-item .drop-link h5 {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.faq-page .faq-content .faq-slide .list .list-item .drop-content {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+
+/*** login ***/
+.account-page .account-content .left a, .account-page .account-content .right button {
+    float: left;
+}
+.account-page .account-content .right .login input {
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+/*** product desc ***/
+.desc-page .desc-content .desc-slider .gallery-top {
+    float: left;
+}
+.desc-page .desc-content .desc-text {
+    margin-right: 60px;
+    margin-left: 0;
+}
+.desc-page .desc-content .desc-text .options label:after {
+    margin-right: 3px;
+    margin-left: 0;
+}
+.desc-page .desc-content .desc-text .options .social-share {
+    margin-right: 20px;
+    margin-left: 0;
+}
+.desc-page .desc-content .add-to-cart .count .count-arrows a {
+    border-left: 1px solid #233851;
+    border-right: none;
+}
+.desc-page .desc-content .add-to-cart .link-3,
+.desc-page .desc-content .add-to-cart .link-4 {
+    margin-right: 15px;
+    margin-left: 0;
+}
+.desc-page .desc-content .desc-card .card-content .cart a.wishlist-link {
+    float: left;
+}
+
+/*** products ***/
+.products-page .products-content .sidebar .sidebar-list .list-item .drop {
+    left: 5px;
+    right: auto;
+}
+.products-page .products-content .sidebar .sidebar-list .list-item .dropdown-list {
+    padding-right: 15px;
+    padding-left: 0;
+}
+.products-page .products-content .sidebar .sidebar-list .list-item .dropdown-list li a i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+.products-page .products-content .main-products .view-option i.grid {
+    margin-left: 13px;
+    margin-right: 0;
+}
+.products-page .products-content .main-products .product .add-to-cart .count .count-arrows a {
+    border-left: 1px solid #233851;
+    border-right: none;
+}
+.products-page .products-content .main-products .product.list-view .product-img {
+    float: right;
+    margin-left: 30px;
+    margin-right: 0;
+}
+.products-page .products-content .main-products .product.list-view .product-links {
+    float: right;
+}
+.products-page .products-content .main-products .product.list-view .add-to-cart {
+    float: right;
+}
+.products-page .products-content .main-products .product.list-view .wishlist {
+    float: left;
+    margin-left: 50px;
+    margin-right: 0;
+}
+
+@media(min-width: 1200px) {
+    .products-page .products-content .sidebar {
+        padding-left: 60px;
+        padding-right: 0;
+    }
+}
+@media(max-width: 815px) {
+    .products-page .products-content .main-products .product.list-view .product-img {
+        width: 40%;
+        margin: 0 auto;
+        float: none;
+    }
+    .products-page .products-content .main-products .product.list-view .product-links {
+        text-align: right;
+    }
+}
+
+
+/*** sign up ***/
+.signup-page .signup-content .left .choose .signup-radio .radio:last-child {
+    margin-right: 35px;
+    margin-left: 0;
+}
+.signup-page .signup-content .right form .form-group label {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.signup-page .signup-content .right form .form-group label.required:after {
+    margin-right: 3px;
+    margin-left: 0;
+}
+.signup-page .signup-content .right form .form-group .form-input {
+    padding-right: 10px;
+    padding-left: 0;
+}
